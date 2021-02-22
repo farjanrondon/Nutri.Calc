@@ -18,52 +18,64 @@ La primera versión de Nutri.Calc, tiene como función general ser un ayudante d
 	- Macronutrientes.  
  
 6. Guardar datos de cada paciente con identificación y numero de consulta si se requiere, en una hoja de cálculo (Formato .xlsx, Excel).  
+  
 
-
-# Formulas usadas para calcular cada dato.
-
-  Formula del Índice de Masa Corporal:
-  IMC = p/(e⁄(100))^2   
+## Formulas usadas para calcular cada dato.
+  
+### Formula del Índice de Masa Corporal:
+  	
+	IMC = p/(e⁄(100))^2   
+  
   IMC = Índice de Masa Corporal.
   p = Peso (kilogramos).
   e = Estatura (centímetros).
-
-  Formula del Porcentaje de Grasa (Mujeres):
-  %MGrasa = (0.439*ccint)+(0.221*edad)-9.4
+  
+### Formula del Porcentaje de Grasa (Mujeres):
+  	
+	%MGrasa = (0.439*ccint)+(0.221*edad)-9.4
+  
   %MGrasa = Porcentaje de Grada de Mujeres.
   ccint = Circunferencia de Cintura (centímetros).
   edad = Edad (años).
-
-  Formula del Porcentaje de Grasa (Hombres):
-  %HGrasa = (0.567*ccint)+(0.101*edad)-31.8
+  
+### Formula del Porcentaje de Grasa (Hombres):
+  	
+	%HGrasa = (0.567*ccint)+(0.101*edad)-31.8
+  
   %HGrasa = Porcentaje de Grada de Hombres.
   ccint = Circunferencia de Cintura (centímetros).
   edad = Edad (años).
-
-  Formula del Requerimiento Calórico Total (Mujeres):
-  RCTm = ((9.99*pU) + (6.25*e) - (4.92*edad) - 161) * actFisica
+  
+### Formula del Requerimiento Calórico Total (Mujeres):
+  	
+	RCTm = ((9.99*pU) + (6.25*e) - (4.92*edad) - 161) * actFisica
+  
   RCTm = Requerimiento Calórico Total de Mujeres.
   pU = Peso a Usar (kilogramos).
   edad = Edad (años).
   actFisica = Actividad Física.
   e = Estatura (centímetros).
-
-  Formula del Requerimiento Calórico Total (Hombres):
-  RCTh = ((9.99*pU) + (6.25*e) - (4.92*edad) + 5) * actFisica
+  
+### Formula del Requerimiento Calórico Total (Hombres):
+  	
+	RCTh = ((9.99*pU) + (6.25*e) - (4.92*edad) + 5) * actFisica
+  
   RCTh = Requerimiento Calórico Total de Hombres.
   pU = Peso a Usar (kilogramos).
   edad = Edad (años).
   actFisica = Actividad Física.
   e = Estatura (centímetros).
-
-  Formula del Requerimiento Calórico Total a Usar:
-  RCTaUsar = RCT + restriccion
+  
+### Formula del Requerimiento Calórico Total a Usar:
+  	  
+	RCTaUsar = RCT + restriccion
+    
   RCTaUsar = Requerimiento Calórico Total a Usar.
   RCT = Requerimiento Calórico Total de Hombre o Mujer según sea el caso.
   restriccion = Restricción.
 
 
-# Método de cálculo y uso del programa.
+## Método de cálculo y uso del programa.
 
 Para disfrutar al máximo la experiencia y las funciones y utilidades del programa, es importante conocer el funcionamiento de este, entre los datos más importantes destacan inicialmente el IMC y el %Grasa, ya que para conocer estos dos hace falta indicarle al programa los siguientes datos:
 	

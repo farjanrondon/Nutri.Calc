@@ -1,28 +1,28 @@
-# Nutri.Calc
+# Nutri.Calc v1.0
 Nutri.Calc is an assistant for nutritionists, by means of which you can calculate important data for later storage in spreadsheets.
 Nutri.Calc es un asistente para nutricionistas, mediante el cual se pueden calcular datos importantes para su posterior almacenamiento en hojas de cálculo.
 
-FARJAN RONDÓN
+# FARJAN RONDÓN
 
 
-Funciones del programa
+# Funciones del programa.
 
 La primera versión de Nutri.Calc, tiene como función general ser un ayudante de nutricionistas, el cual posea la capacidad de realizar tareas realmente básicas, principalmente en el cálculo de valores importantes, necesarios y de primera mano para cualquier profesional del área de la nutrición, y además de esto la clara facilidad de realizar esta tarea de la manera más óptima y fácil posible. Siendo más específico tenemos:
 
-a. Calcular Índice de Masa Corporal (IMC).
-b. Calcular Porcentaje de Grasa (%Grasa).
-c. Calcular Requerimiento Calórico Total (RCT).
-d. Calcular Requerimiento Calórico Total a Usar (RCT a usar).
-e. Visualización de tablas:
-	- Actividad Física (FAO 2004).
-	- Calificación del Porcentaje de Grasa de Hombres.
-	- Calificación del Porcentaje de Grasa de Mujeres.
-	- Macronutrientes.
+a. Calcular Índice de Masa Corporal (IMC).  
+b. Calcular Porcentaje de Grasa (%Grasa).  
+c. Calcular Requerimiento Calórico Total (RCT).  
+d. Calcular Requerimiento Calórico Total a Usar (RCT a usar).  
+e. Visualización de tablas:  
+	- Actividad Física (FAO 2004).  
+	- Calificación del Porcentaje de Grasa de Hombres.  
+	- Calificación del Porcentaje de Grasa de Mujeres.  
+	- Macronutrientes.  
  
-f. Guardar datos de cada paciente con identificación y numero de consulta si se requiere, en una hoja de cálculo (Formato .xlsx, Excel).
+f. Guardar datos de cada paciente con identificación y numero de consulta si se requiere, en una hoja de cálculo (Formato .xlsx, Excel).  
 
 
-Formulas usadas para calcular cada dato
+# Formulas usadas para calcular cada dato.
 
   Formula del Índice de Masa Corporal:
   IMC = p/(e⁄(100))^2   
@@ -65,7 +65,7 @@ Formulas usadas para calcular cada dato
   restriccion = Restricción.
 
 
-Método de cálculo y uso del programa
+# Método de cálculo y uso del programa.
 
 Para disfrutar al máximo la experiencia y las funciones y utilidades del programa, es importante conocer el funcionamiento de este, entre los datos más importantes destacan inicialmente el IMC y el %Grasa, ya que para conocer estos dos hace falta indicarle al programa los siguientes datos:
 	

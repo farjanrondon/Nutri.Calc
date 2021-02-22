@@ -1,5 +1,5 @@
 # Nutri.Calc v1.0
-Nutri.Calc is an assistant for nutritionists, by means of which you can calculate important data for later storage in spreadsheets.
+Nutri.Calc is an assistant for nutritionists, by means of which you can calculate important data for later storage in spreadsheets.  
 Nutri.Calc es un asistente para nutricionistas, mediante el cual se pueden calcular datos importantes para su posterior almacenamiento en hojas de cálculo.
 
 
@@ -7,17 +7,17 @@ Nutri.Calc es un asistente para nutricionistas, mediante el cual se pueden calcu
 
 La primera versión de Nutri.Calc, tiene como función general ser un ayudante de nutricionistas, el cual posea la capacidad de realizar tareas realmente básicas, principalmente en el cálculo de valores importantes, necesarios y de primera mano para cualquier profesional del área de la nutrición, y además de esto la clara facilidad de realizar esta tarea de la manera más óptima y fácil posible. Siendo más específico tenemos:
 
-1. Calcular Índice de Masa Corporal (IMC).  
-2. Calcular Porcentaje de Grasa (%Grasa).  
-3. Calcular Requerimiento Calórico Total (RCT).  
-4. Calcular Requerimiento Calórico Total a Usar (RCT a usar).  
+1. Calcular Índice de Masa Corporal (**IMC**).  
+2. Calcular Porcentaje de Grasa (**%Grasa**).  
+3. Calcular Requerimiento Calórico Total (**RCT**).  
+4. Calcular Requerimiento Calórico Total a Usar (**RCT a usar**).  
 5. Visualización de tablas:  
-	- Actividad Física (FAO 2004).  
+	- Actividad Física (**FAO 2004**).  
 	- Calificación del Porcentaje de Grasa de Hombres.  
 	- Calificación del Porcentaje de Grasa de Mujeres.  
 	- Macronutrientes.  
  
-6. Guardar datos de cada paciente con identificación y numero de consulta si se requiere, en una hoja de cálculo (Formato .xlsx, Excel).  
+6. Guardar datos de cada paciente con identificación y numero de consulta si se requiere, en una hoja de cálculo (**Formato .xlsx, Excel**).  
   
 
 ## Formulas usadas para calcular cada dato.
@@ -26,25 +26,25 @@ La primera versión de Nutri.Calc, tiene como función general ser un ayudante d
   	
 	IMC = p/(e⁄(100))^2   
   
-  IMC = Índice de Masa Corporal.
-  p = Peso (kilogramos).
-  e = Estatura (centímetros).
+  **IMC** = Índice de Masa Corporal.
+  **p** = Peso (kilogramos).
+  **e** = Estatura (centímetros).
   
 ### Formula del Porcentaje de Grasa (Mujeres):
   	
 	%MGrasa = (0.439*ccint)+(0.221*edad)-9.4
   
-  %MGrasa = Porcentaje de Grada de Mujeres.
-  ccint = Circunferencia de Cintura (centímetros).
-  edad = Edad (años).
+  **%MGrasa** = Porcentaje de Grada de Mujeres.
+  **ccint** = Circunferencia de Cintura (centímetros).
+  **edad** = Edad (años).
   
 ### Formula del Porcentaje de Grasa (Hombres):
   	
 	%HGrasa = (0.567*ccint)+(0.101*edad)-31.8
   
-  %HGrasa = Porcentaje de Grada de Hombres.
-  ccint = Circunferencia de Cintura (centímetros).
-  edad = Edad (años).
+  **%HGrasa** = Porcentaje de Grada de Hombres.
+  **ccint** = Circunferencia de Cintura (centímetros).
+  **edad** = Edad (años).
   
 ### Formula del Requerimiento Calórico Total (Mujeres):
   	
